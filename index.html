@@ -1,21 +1,43 @@
 <html>
 <head>
-  <title>Page title</title>
+  <title>A page about frogs</title>
 </head>
 
 
 <body>
-  <h1 id="page-heading">This is a heading</h1>
-  <p id="test-paragraph">This is a paragraph.</p>
-  <button type="button" id="test-button" onclick="showAlert()">This is an alert button.</button>
+  <h1 id="page-heading">About frogs</h1>
+    <div>
+      <h2>General information</h2>
+      <p id="test-paragraph">In general, frogs have protruding eyes, no tail, and strong, webbed hind feet that are adapted for leaping and swimming. They also possess smooth, moist skins. Many are predominantly aquatic, but some live on land, in burrows, or in trees.</p>
+    </div>
+    <div>
+      <h3>Different frog species</h3>
+      <p>There are several different frogs, for instance:</p>
+      <ul>
+        <li>Tree frogs</li>
+        <li>Tailed frogs</li>
+        <li>Clawed frogs</li>
+        <li>Horned frogs</li>
+      </ul>
+    </div>
+  <br><br>
+    <button type="button" id="test-button" onclick="showAlert()">This is an alert button.</button>
   <form>
     <label id="fname">First name:</label><br>
     <input type="text" id="fname"><br>
     <label id="lname">Last name:</label><br>
     <input type="text" id="lname"><br><br>
     <input type="submit" value="Hit me!">
-  </form> 
-  <script src="main.js"></script>
-</body>
+  </form>
 
+  <div>
+    <h3>Media</h3>
+      <video src = "https://youtu.be/oMFxQsaT274" controls format = ".mp4">Your browser does not support the video tag.</video>
+  
+    <img src="https://cdn.mos.cms.futurecdn.net/39CUYMP8vJqHAYGVzUghBX-1200-80.jpg" id = "frog" width="280" height="180" alt = "A picture of a frog." />
+  </div>
+
+<script src="main.js"></script>
+
+</body>
 </html>
