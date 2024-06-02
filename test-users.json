@@ -1,0 +1,9 @@
+{
+    "users": [
+      {"id":"1", "username": "Jesper", "role-type": "admin"},
+      {"id":"2", "username": "Andrew", "role-type": "manager"},
+      {"id":"3", "username": "Aksel", "role-type": "manager"},
+      {"id":"4", "username": "Jonatan", "role-type": "employee"},
+      {"id":"5", "username": "Louise", "role-type": "employee"}
+    ]
+}
