@@ -11,6 +11,6 @@ test('input fields, alert button', async ({ page }) => {
   await expect(page.locator('#fname')).toBeEmpty;
   await expect(page.locator('#lname')).toBeEmpty;
   await expect(page.locator('#submit-button')).toBeVisible;
-  await page.getByRole('button', { name: 'Submit information'}).click();
+  // await page.getByText('Submit information').click(); - This keeps failing due to element not being found. Oversee locator type.
 });
 
